@@ -106,8 +106,8 @@ span .fas{
     border-radius: 5px;
 }
 .bonas-section-detail{
-    background-color: rgb(84, 61, 216);
-    color: #fff;
+    background-color: lightblue;
+    color: rgb(10, 10, 10);
     font-size: 18px;
     font-weight: 500px;
     border: 3px solid gray;
