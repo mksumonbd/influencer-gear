@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     }
 
-
+/* header and top section styles */
 header{
     font-size: 20px;
     margin-top: 100px;
@@ -91,6 +91,7 @@ span .fas{
     text-decoration: none;
     border-radius: 5px;
 }
+/* bonas section styles */
 .bonas-section{
     display: flex;
     margin-top: 100px; 
@@ -118,6 +119,7 @@ span .fas{
     font-size: 32px;
     color: hsl(240, 13%, 11%);
 }
+/* footer section styles */
 footer{
     padding: 50px;
     margin-top: 100px;
