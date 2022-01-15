@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+header{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.top-header{
+    font-size: 50px;
+    
+}
+.top-section-header p{
+    font-size: 20px;
+    
+}
+.top-section .top-section-header a{
+    background-color: brown;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.top-section .top-section-header a:hover{
+    background-color: rgb(11, 3, 56);
+    padding: 10px 30px;
+    transition: 1s;
+    }
+span .fas{
+    margin-left: 10px;
+}
+/* Popular section styles */
+.container{
+    margin-left: 20px;
+}
+
+.popular-collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0;
+        
+}
+
+.popular-collection{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(212, 214, 218);
+}
+.popular-collection h1{
+    font-size: 28px;
+}
+.popular-collection img{
+    width: 300px;
+    height: 300px;
+}
+.popular-collection .price{
+    font-size: 32px;
+}
+.popular-section-title{
+    text-align: center;
+    font-size: 26px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.right-arrow a{    
+    margin-right: 100px;
+    margin-top: 20px;   
+    float:right;
+    color: rgb(128, 26, 26);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.bonas-section{
+    display: flex;
+    margin-top: 100px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.bonas-section-top{
+    margin-right: 50px;
+}
+.bonas-section-top img{
+    border-radius: 5px;
+}
+.bonas-section-detail{
+    background-color: rgb(84, 61, 216);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: justify;
+}
+.bonas-section-detail h1{
+    font-size: 32px;
+    color: hsl(240, 13%, 11%);
+}
+footer{
+    padding: 50px;
+    margin-top: 100px;
+    height: 200px;      
+    background-color: #0A0826;
+
+}
+
+.footer-section{
+    text-align: center;
+    color: #fff;
+}
+.social-media-icons{
+    color:#fff;
+    text-align: center;    
+    font-size: 30px;
+    }
+.social-media-icons .fab{
+    margin: 10px;
+    }
+
