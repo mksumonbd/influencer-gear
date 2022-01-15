@@ -4,8 +4,8 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     }
-
-/* header and top section styles */
+    
+    /* header and top section styles */
 header{
     font-size: 20px;
     margin-top: 100px;
@@ -42,16 +42,11 @@ span .fas{
     margin-left: 10px;
 }
 /* Popular section styles */
-.container{
-    margin-left: 20px;
-}
-
 .popular-collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 0;
-        
-}
+    margin-left: 50px;
+    }
 
 .popular-collection{
     width: 300px;
